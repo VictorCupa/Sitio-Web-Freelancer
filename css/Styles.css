@@ -150,7 +150,7 @@ h1, h2,h3{
 }
 
 /*servicios*/
-.servicion, .navegacion-principal, .formulario{
+.servicion, .navegacion-principal, .formulario {
     scroll-snap-align: center;
     scroll-snap-stop: always;
 }
@@ -192,6 +192,11 @@ h1, h2,h3{
     margin: 0 auto;
     padding: 3rem ;
     border-radius: 1rem;
+    box-shadow:rgb(223, 223, 223) 0px 2px 2px, rgb(203, 203, 203) -2px 5px 1px,
+    rgb(151, 151, 151) -4px 8px 1px, rgb(162, 162, 162) -6px 11px 1px,
+    rgb(174, 174, 174) -8px 14px 1px, rgb(181, 181, 181) -10px 17px 1px,
+    rgb(190, 190, 190) -12px 20px 1px, rgb(206, 206, 206) -14px 23px 1px,
+    rgb(219, 219, 219) -16px 26px 1px, rgb(223, 223, 223) -18px 29px 1px;
 }
 .formulario fieldset {
     border: none;
